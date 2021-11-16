@@ -1,0 +1,124 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*texto do slide*/
+
+#texto {
+    text-align: center;
+    top: -350px;
+    position: relative;
+    color: white;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#texto p {
+    font-size: 20px;
+}
+
+
+/*quem somos */
+
+#article {
+    text-align: center;
+    top: -100px;
+    position: relative;
+}
+
+
+/*nosso serviçao*/
+
+main img {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+main:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+main small {
+    font-size: 30px;
+}
+
+
+/*galeria*/
+
+.owl-carousel img {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-left: 20px;
+    display: inline-block;
+    padding: 15px;
+    height: 200px;
+    width: 300px;
+    animation: fly 5s;
+}
+
+.owl-carousel:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+@keyframes fly {
+    from {
+        transform: translateX(calc(100vw - 200px));
+    }
+    to {
+        transform: translateX(calc(100vw - 200px));
+        transform: translateX(0);
+    }
+}
+
+
+/*cuidados*/
+
+#cuidado {
+    padding: 30px;
+}
+
+#cuidado img {
+    box-shadow: none;
+}
+
+#cuidado p {
+    color: green;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/*formulario*/
+
+.card {
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(red, green, blue, alpha);
+}
+
+
+/*whatsapp*/
+
+.fixo {
+    position: fixed;
+    right: 3px;
+    top: 60%;
+    width: 8em;
+    margin-top: -2.5em;
+    list-style: none;
+}
+
+.fixo img {
+    width: 50px;
+    height: 50px;
+}
